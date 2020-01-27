@@ -13,7 +13,29 @@ public class 00_var{
 	String string="To jest jakiś text";
 	
 	public static void main(String[] args) {
-		int wynik=5;
+		int wynik;
+		int l1 = 56;
+		int l2 = 16;
+		byte b1 = 127;
+		wynik = l1+l2;
 		System.out.println("Wynik = "+ wynik);
+		wynik = l1-l2;
+		System.out.println("Wynik = "+ wynik);
+		wynik = l1*l2;
+		System.out.println("Wynik = "+ wynik);
+		wynik = l1/l2;
+		System.out.println("Wynik = "+ wynik);
+		wynik = l1%l2;
+		System.out.println("Wynik = "+ wynik);
+		wynik = 0;
+		wynik++;
+		wynik++;
+		wynik++;
+		System.out.println("Wynik = "+ wynik);
+		wynik--;
+		System.out.println("Wynik = "+ wynik);
+		System.out.println("Przed inc "+b1);
+		b1++;
+		System.out.println("Po inc "+b1);
 	}
 }
