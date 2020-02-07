@@ -8,9 +8,9 @@ public class Zadanie01 {
     // User wprowadza 3 liczby - sprawdź czy mogą utworzyć trójkąt.
     // 2 muszą być większe od 3.
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         int a, b, c = 0;
-        Scanner scanner = new Scanner(System.in);
+        final Scanner scanner = new Scanner(System.in);
         System.out.print("Podaj 1 liczbę: ");
         a = scanner.nextInt();
         System.out.print("Podaj 2 liczbę: ");
