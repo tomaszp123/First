@@ -1,3 +1,5 @@
+package src;
+
 /*
 Created by Tomasz Pajewski 28.01.2020
 */

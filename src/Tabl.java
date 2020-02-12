@@ -1,3 +1,5 @@
+package src;
+
 /*
 	Created by Tomasz Pajewski on 2020-01-28.
 	Java some table examples
